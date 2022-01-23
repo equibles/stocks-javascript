@@ -1,0 +1,27 @@
+{
+  "name": "equibles_stocks",
+  "version": "v1",
+  "description": "h3Authenticationh3____________________You_need_to_authenticate_to_use_this_API_____________________To_authenticate_click_on_the_Authorize_button_and_do_one_of_the_following_steps_br_____________________1__Send_your_API_key_in_the_headers_of_the_request_by_typing_Bearer_my_key_on_the_Bearer_authorization_scheme_br_____________________2__Send_your_API_key_on_the_ApiKey_query_string_parameter__To_do_this_type_your_API_key_in_the_Query_String_authorization_scheme_br_____________________Both_methods_are_equally_valid__We_offer_both_options_so_that_you_can_use_the_method_that_is_easier_to_use_in_your_application_br_____________________br_____________________h3API_limitsh3____________________Your_API_key_may_be_subject_to_dailyhourly_limits__To_know_how_much_requests_you_have_left_look_at_the_following_headers_in_the_response_br_____________________1__strongx_ratelimit_limitstrong___The_total_number_of_requests_that_you_are_allowed_to_make_in_a_given_period__hourday______________________2__strongx_ratelimit_remainingstrong___The_number_of_remaining_requests_that_you_can_perform_in_the_current_period_br_____________________3__strongx_ratelimit_resetstrong___The_number_of_seconds_until_the_current_period_resets_br_____________________br_____________________h3Suggestionsh3____________________You_dont_need_to_implement_the_whole_API_by_hand_in_your_programming_language_of_choice_br_____________________Since_this_API_has_an_OpenAPI_specification_you_can_use_____________________a_hrefhttpsgithub_comswagger_apiswagger_codegen_target_blankSwagger_Generatora_____________________to_automatically_generate_client_stubs_for_more_than_30_programming_languages_____________________br_____________________br_____________________You_dont_have_an_API_key_a_hrefhttpswww_equibles_comapipricing_target_blankGet_one_for_free_here_a",
+  "license": "Unlicense",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register --recursive"
+  },
+  "browser": {
+    "fs": false
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "superagent": "3.7.0"
+  },
+  "devDependencies": {
+    "babel-core": "6.26.0",
+    "babel-plugin-transform-builtin-extend": "^1.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "expect.js": "~0.3.1",
+    "mocha": "~2.3.4",
+    "sinon": "1.17.3"
+  }
+}

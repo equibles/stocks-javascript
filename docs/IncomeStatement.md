@@ -1,0 +1,33 @@
+# EquiblesStocks.IncomeStatement
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**grossProfit** | **Number** |  | [optional] 
+**revenue** | **Number** |  | [optional] 
+**costOfRevenue** | **Number** |  | [optional] 
+**costOfGoodsAndServicesSold** | **Number** |  | [optional] 
+**operatingIncome** | **Number** |  | [optional] 
+**sellingGeneralAndAdministrative** | **Number** |  | [optional] 
+**researchAndDevelopment** | **Number** |  | [optional] 
+**operatingExpenses** | **Number** |  | [optional] 
+**investmentIncomeNet** | **Number** |  | [optional] 
+**netInterestIncome** | **Number** |  | [optional] 
+**interestIncome** | **Number** |  | [optional] 
+**interestExpense** | **Number** |  | [optional] 
+**nonInterestIncome** | **Number** |  | [optional] 
+**otherNonOperatingIncome** | **Number** |  | [optional] 
+**depreciation** | **Number** |  | [optional] 
+**depreciationAndAmortization** | **Number** |  | [optional] 
+**incomeBeforeTax** | **Number** |  | [optional] 
+**incomeTaxExpense** | **Number** |  | [optional] 
+**interestAndDebtExpense** | **Number** |  | [optional] 
+**netIncomeFromContinuingOperations** | **Number** |  | [optional] 
+**comprehensiveIncomeNetOfTax** | **Number** |  | [optional] 
+**ebit** | **Number** |  | [optional] 
+**ebitda** | **Number** |  | [optional] 
+**netIncome** | **Number** |  | [optional] 
+**effectOfAccountingCharges** | **Number** |  | [optional] 
+**taxProvision** | **Number** |  | [optional] 
+**sellingAndMarketingExpenses** | **Number** |  | [optional] 
+**extraordinaryItems** | **Number** |  | [optional] 

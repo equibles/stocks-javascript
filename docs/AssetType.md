@@ -2,5 +2,6 @@
 
 ## Enum
 
-* `CommonStock` (value: `"CommonStock"`)
-* `PreferredStock` (value: `"PreferredStock"`)
+* `commonStock` (value: `"CommonStock"`)
+* `preferredStock` (value: `"PreferredStock"`)
+* `cryptoCurrency` (value: `"CryptoCurrency"`)

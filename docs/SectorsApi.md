@@ -15,14 +15,8 @@ Lists all the sectors.
 
 ### Example
 ```javascript
-import EquiblesStocks from 'equibles_stocks';
+import {EquiblesStocks} from 'equibles_stocks';
 let defaultClient = EquiblesStocks.ApiClient.instance;
-
-// Configure API key authorization: Bearer
-let Bearer = defaultClient.authentications['Bearer'];
-Bearer.apiKey = 'YOUR API KEY';
-// Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-//Bearer.apiKeyPrefix = 'Token';
 
 // Configure API key authorization: Query String
 let Query String = defaultClient.authentications['Query String'];
@@ -48,7 +42,7 @@ This endpoint does not need any parameter.
 
 ### Authorization
 
-[Bearer](../README.md#Bearer), [Query String](../README.md#Query String)
+[Query String](../README.md#Query String)
 
 ### HTTP request headers
 
@@ -63,14 +57,8 @@ Lists and the stock in a given sector/industry.
 
 ### Example
 ```javascript
-import EquiblesStocks from 'equibles_stocks';
+import {EquiblesStocks} from 'equibles_stocks';
 let defaultClient = EquiblesStocks.ApiClient.instance;
-
-// Configure API key authorization: Bearer
-let Bearer = defaultClient.authentications['Bearer'];
-Bearer.apiKey = 'YOUR API KEY';
-// Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-//Bearer.apiKeyPrefix = 'Token';
 
 // Configure API key authorization: Query String
 let Query String = defaultClient.authentications['Query String'];
@@ -104,7 +92,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[Bearer](../README.md#Bearer), [Query String](../README.md#Query String)
+[Query String](../README.md#Query String)
 
 ### HTTP request headers
 

@@ -2,5 +2,5 @@
 
 ## Enum
 
-* `Success` (value: `"Success"`)
-* `Error` (value: `"Error"`)
+* `success` (value: `"Success"`)
+* `error` (value: `"Error"`)

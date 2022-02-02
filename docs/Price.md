@@ -8,5 +8,4 @@ Name | Type | Description | Notes
 **low** | **Number** |  | [optional] 
 **open** | **Number** |  | [optional] 
 **volume** | **Number** |  | [optional] 
-**splitFactor** | **Number** |  | [optional] 
 **time** | **Date** |  | [optional] 

@@ -1,4 +1,4 @@
-# Equibles Stocks - JavaScript client
+# Equibles Stocks API for Javascript
 
 ## Installation
 
@@ -63,12 +63,6 @@ Please follow the [installation](#installation) instruction and execute the foll
 var EquiblesStocks = require('equibles_stocks');
 var defaultClient = EquiblesStocks.ApiClient.instance;
 
-// Configure API key authorization: Bearer
-var Bearer = defaultClient.authentications['Bearer'];
-Bearer.apiKey = "YOUR API KEY"
-// Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-//Bearer.apiKeyPrefix['Authorization'] = "Token"
-
 // Configure API key authorization: Query String
 var Query String = defaultClient.authentications['Query String'];
 Query String.apiKey = "YOUR API KEY"
@@ -100,11 +94,13 @@ Class | Method | HTTP request | Description
 *EquiblesStocks.NewsApi* | [**publishers**](docs/NewsApi.md#publishers) | **GET** /stocks/news/publishers | Get all the available news publishers.
 *EquiblesStocks.PerformanceApi* | [**list**](docs/PerformanceApi.md#list) | **GET** /stocks/performance/list | Lists the performance for a given stock.
 *EquiblesStocks.PricesApi* | [**endOfDay**](docs/PricesApi.md#endOfDay) | **GET** /stocks/prices/endofday | Lists the end of day prices for a given stock.
+*EquiblesStocks.PricesApi* | [**intraday**](docs/PricesApi.md#intraday) | **GET** /stocks/prices/intraday | Lists the intraday prices for a given stock with one minute precision.
 *EquiblesStocks.SectorsApi* | [**list**](docs/SectorsApi.md#list) | **GET** /stocks/sectors/list | Lists all the sectors.
 *EquiblesStocks.SectorsApi* | [**searchStocks**](docs/SectorsApi.md#searchStocks) | **GET** /stocks/sectors/searchstocks | Lists and the stock in a given sector/industry.
 *EquiblesStocks.StocksApi* | [**list**](docs/StocksApi.md#list) | **GET** /stocks/list | Get a list of all the available stocks.
 *EquiblesStocks.StocksApi* | [**officers**](docs/StocksApi.md#officers) | **GET** /stocks/officers | Get the officers of the company.
 *EquiblesStocks.StocksApi* | [**profile**](docs/StocksApi.md#profile) | **GET** /stocks/profile | The profile of this stock.
+*EquiblesStocks.StocksApi* | [**screener**](docs/StocksApi.md#screener) | **POST** /stocks/screener | Get a list of stocks constraint to several criteria.
 *EquiblesStocks.StocksApi* | [**search**](docs/StocksApi.md#search) | **GET** /stocks/search | Search among all the available stocks.
 *EquiblesStocks.StocksApi* | [**splits**](docs/StocksApi.md#splits) | **GET** /stocks/splits | Get all the splits for a given stock.
 *EquiblesStocks.TransactionsApi* | [**insiders**](docs/TransactionsApi.md#insiders) | **GET** /stocks/transactions/insiders | Lists the insider transactions for a given stock.
@@ -115,9 +111,6 @@ Class | Method | HTTP request | Description
  - [EquiblesStocks.AssetType](docs/AssetType.md)
  - [EquiblesStocks.BalanceSheet](docs/BalanceSheet.md)
  - [EquiblesStocks.CashFlowStatement](docs/CashFlowStatement.md)
- - [EquiblesStocks.CommonStock](docs/CommonStock.md)
- - [EquiblesStocks.CommonStockResponse](docs/CommonStockResponse.md)
- - [EquiblesStocks.CommonStocksResponse](docs/CommonStocksResponse.md)
  - [EquiblesStocks.CurrenciesResponse](docs/CurrenciesResponse.md)
  - [EquiblesStocks.Currency](docs/Currency.md)
  - [EquiblesStocks.Dividend](docs/Dividend.md)
@@ -143,10 +136,15 @@ Class | Method | HTTP request | Description
  - [EquiblesStocks.PricesResponse](docs/PricesResponse.md)
  - [EquiblesStocks.Publisher](docs/Publisher.md)
  - [EquiblesStocks.PublishersResponse](docs/PublishersResponse.md)
+ - [EquiblesStocks.Recommendation](docs/Recommendation.md)
  - [EquiblesStocks.ResponseStatus](docs/ResponseStatus.md)
+ - [EquiblesStocks.ScreenerRequest](docs/ScreenerRequest.md)
  - [EquiblesStocks.Sector](docs/Sector.md)
  - [EquiblesStocks.SectorsResponse](docs/SectorsResponse.md)
  - [EquiblesStocks.SplitsResponse](docs/SplitsResponse.md)
+ - [EquiblesStocks.StockProfile](docs/StockProfile.md)
+ - [EquiblesStocks.StockProfileResponse](docs/StockProfileResponse.md)
+ - [EquiblesStocks.StockProfilesResponse](docs/StockProfilesResponse.md)
  - [EquiblesStocks.StockSplit](docs/StockSplit.md)
  - [EquiblesStocks.Transaction](docs/Transaction.md)
  - [EquiblesStocks.TransactionType](docs/TransactionType.md)
@@ -155,15 +153,12 @@ Class | Method | HTTP request | Description
 ## Documentation for Authorization
 
 
-### Bearer
-
-- **Type**: API key
-- **API key parameter name**: Authorization
-- **Location**: HTTP header
-
 ### Query String
 
 - **Type**: API key
 - **API key parameter name**: ApiKey
 - **Location**: URL query string
 
+## Author
+[Equibles](https://www.equibles.com)\
+equibles@gmail.com

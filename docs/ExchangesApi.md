@@ -16,14 +16,8 @@ Get the list of all the currencies supported by this API.
 
 ### Example
 ```javascript
-import EquiblesStocks from 'equibles_stocks';
+import {EquiblesStocks} from 'equibles_stocks';
 let defaultClient = EquiblesStocks.ApiClient.instance;
-
-// Configure API key authorization: Bearer
-let Bearer = defaultClient.authentications['Bearer'];
-Bearer.apiKey = 'YOUR API KEY';
-// Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-//Bearer.apiKeyPrefix = 'Token';
 
 // Configure API key authorization: Query String
 let Query String = defaultClient.authentications['Query String'];
@@ -49,7 +43,7 @@ This endpoint does not need any parameter.
 
 ### Authorization
 
-[Bearer](../README.md#Bearer), [Query String](../README.md#Query String)
+[Query String](../README.md#Query String)
 
 ### HTTP request headers
 
@@ -64,14 +58,8 @@ Get the list of all the exchanges supported by this API.
 
 ### Example
 ```javascript
-import EquiblesStocks from 'equibles_stocks';
+import {EquiblesStocks} from 'equibles_stocks';
 let defaultClient = EquiblesStocks.ApiClient.instance;
-
-// Configure API key authorization: Bearer
-let Bearer = defaultClient.authentications['Bearer'];
-Bearer.apiKey = 'YOUR API KEY';
-// Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-//Bearer.apiKeyPrefix = 'Token';
 
 // Configure API key authorization: Query String
 let Query String = defaultClient.authentications['Query String'];
@@ -97,7 +85,7 @@ This endpoint does not need any parameter.
 
 ### Authorization
 
-[Bearer](../README.md#Bearer), [Query String](../README.md#Query String)
+[Query String](../README.md#Query String)
 
 ### HTTP request headers
 
@@ -114,14 +102,8 @@ Returns a list of fully qualified ticker names. A fully qualified ticker has the
 
 ### Example
 ```javascript
-import EquiblesStocks from 'equibles_stocks';
+import {EquiblesStocks} from 'equibles_stocks';
 let defaultClient = EquiblesStocks.ApiClient.instance;
-
-// Configure API key authorization: Bearer
-let Bearer = defaultClient.authentications['Bearer'];
-Bearer.apiKey = 'YOUR API KEY';
-// Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-//Bearer.apiKeyPrefix = 'Token';
 
 // Configure API key authorization: Query String
 let Query String = defaultClient.authentications['Query String'];
@@ -152,7 +134,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[Bearer](../README.md#Bearer), [Query String](../README.md#Query String)
+[Query String](../README.md#Query String)
 
 ### HTTP request headers
 

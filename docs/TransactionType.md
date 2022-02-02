@@ -2,5 +2,5 @@
 
 ## Enum
 
-* `Acquired` (value: `"Acquired"`)
-* `Disposed` (value: `"Disposed"`)
+* `acquired` (value: `"Acquired"`)
+* `disposed` (value: `"Disposed"`)
